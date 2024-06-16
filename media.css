@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+    /* Navegacion */
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border: solid black;
+    }
+    #logoPardo {  
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    } 
+    .class-2 {
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .class-2 ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+    }
+
+   /* Seccion Perfil */
+   #seccion-Perfiles  {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        min-height: 100vh;
+    }
+    #seccion-Perfiles .conteiner {
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        height: 100%;
+        width: 100%;
+    }
+    #seccion-Perfiles h2 {
+        text-align: center;
+        margin-bottom: 4rem; 
+    }
+    #seccion-Perfiles h3, p {
+        margin: 0 auto;
+        padding: 0.6rem;
+    }
+
+    /* seccion-Intro */ 
+    #seccion-Intro,
+    #seccion-Intro article,
+    #seccion-Intro .noticia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #seccion-Intro .noticia img {
+        max-width: 100%;
+         height: auto; 
+    }
+
+    /* Contacto */
+    #secContacto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    #formContacto, .inputs, .box, #btnEnviar {
+        width: 100%;
+        text-transform: uppercase;
+    }
+    label, input, button {
+        width: 100%;
+        text-align: center;
+    }
+    textarea#comentario {
+        width: 100%;
+        height: 100%; 
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }   
+    #formContacto h2 {
+        width: 100%;
+    }
+    /* Footer */
+    footer {
+        width: 100vw;
+        height: 100%;
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        
+    }
+    footer ul {
+        width: 100%; 
+        height: 100%;
+        padding: 0;
+        margin: 0; 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+    footer p {
+        text-align: center; 
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        margin: 0 auto; 
+    }
+    footer li {
+        margin: 0; 
+        padding: 0;
+    }
+    #flecha {
+        position: fixed;
+        bottom: 4rem;
+        left: 82%;
+        z-index: 999;
+    }
+    #flecha img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+}
